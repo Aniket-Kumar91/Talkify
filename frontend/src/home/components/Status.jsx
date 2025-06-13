@@ -46,10 +46,13 @@ const Status = () => {
         ))}
 
         <div className="mt-4 flex items-center gap-2 p-2 hover:bg-green-600 rounded cursor-pointer"
+          onClick={() =>
+            window.open("https://chatwithai-pro.netlify.app/", "_blank")
+          }
         // onClick={e => e.currentTarget.style.backgroundColor = e.currentTarget.style.backgroundColor === 'green' ? 'lightcoral' : 'green'} style={{ backgroundColor: 'green'}}
         >
           <div className="w-4 h-4 rounded-full bg-gradient-to-r from-blue-500 to-pink-500" />
-          <span >Meta AI</span>
+          <span >ChatWith Ai</span>
         </div>
       </div>
 
